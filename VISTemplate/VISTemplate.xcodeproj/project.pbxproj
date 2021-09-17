@@ -3,70 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		703CFB8D26F52A3100C0ED9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CFB8C26F52A3100C0ED9B /* AppDelegate.swift */; };
-		703CFB8F26F52A3100C0ED9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CFB8E26F52A3100C0ED9B /* SceneDelegate.swift */; };
-		703CFB9126F52A3100C0ED9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CFB9026F52A3100C0ED9B /* ViewController.swift */; };
-		703CFB9426F52A3100C0ED9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703CFB9226F52A3100C0ED9B /* Main.storyboard */; };
-		703CFB9626F52A3200C0ED9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703CFB9526F52A3200C0ED9B /* Assets.xcassets */; };
-		703CFB9926F52A3200C0ED9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703CFB9726F52A3200C0ED9B /* LaunchScreen.storyboard */; };
-		703CFBA426F52A3200C0ED9B /* VISTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CFBA326F52A3200C0ED9B /* VISTemplateTests.swift */; };
-		703CFBAE26F52A3200C0ED9B /* VISTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CFBAD26F52A3200C0ED9B /* VISTemplateUITests.swift */; };
-		703CFBB026F52A3200C0ED9B /* VISTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703CFBAF26F52A3200C0ED9B /* VISTemplateUITestsLaunchTests.swift */; };
+		708F8A1026F53097004CE29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A0F26F53097004CE29E /* AppDelegate.swift */; };
+		708F8A1226F53097004CE29E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A1126F53097004CE29E /* SceneDelegate.swift */; };
+		708F8A1426F53097004CE29E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A1326F53097004CE29E /* ViewController.swift */; };
+		708F8A1726F53097004CE29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708F8A1526F53097004CE29E /* Main.storyboard */; };
+		708F8A1926F5309F004CE29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708F8A1826F5309F004CE29E /* Assets.xcassets */; };
+		708F8A1C26F5309F004CE29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708F8A1A26F5309F004CE29E /* LaunchScreen.storyboard */; };
+		708F8A2726F5309F004CE29E /* VISTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A2626F5309F004CE29E /* VISTemplateTests.swift */; };
+		708F8A3226F530A0004CE29E /* VISTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A3126F530A0004CE29E /* VISTemplateUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		703CFBA026F52A3200C0ED9B /* PBXContainerItemProxy */ = {
+		708F8A2326F5309F004CE29E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 703CFB8126F52A3000C0ED9B /* Project object */;
+			containerPortal = 708F8A0426F53097004CE29E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 703CFB8826F52A3000C0ED9B;
+			remoteGlobalIDString = 708F8A0B26F53097004CE29E;
 			remoteInfo = VISTemplate;
 		};
-		703CFBAA26F52A3200C0ED9B /* PBXContainerItemProxy */ = {
+		708F8A2E26F530A0004CE29E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 703CFB8126F52A3000C0ED9B /* Project object */;
+			containerPortal = 708F8A0426F53097004CE29E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 703CFB8826F52A3000C0ED9B;
+			remoteGlobalIDString = 708F8A0B26F53097004CE29E;
 			remoteInfo = VISTemplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		703CFB8926F52A3100C0ED9B /* VISTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VISTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		703CFB8C26F52A3100C0ED9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		703CFB8E26F52A3100C0ED9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		703CFB9026F52A3100C0ED9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		703CFB9326F52A3100C0ED9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		703CFB9526F52A3200C0ED9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		703CFB9826F52A3200C0ED9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		703CFB9A26F52A3200C0ED9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		703CFB9F26F52A3200C0ED9B /* VISTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		703CFBA326F52A3200C0ED9B /* VISTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VISTemplateTests.swift; sourceTree = "<group>"; };
-		703CFBA926F52A3200C0ED9B /* VISTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		703CFBAD26F52A3200C0ED9B /* VISTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VISTemplateUITests.swift; sourceTree = "<group>"; };
-		703CFBAF26F52A3200C0ED9B /* VISTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VISTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		708F8A0C26F53097004CE29E /* VISTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VISTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708F8A0F26F53097004CE29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		708F8A1126F53097004CE29E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		708F8A1326F53097004CE29E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		708F8A1626F53097004CE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		708F8A1826F5309F004CE29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		708F8A1B26F5309F004CE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		708F8A1D26F5309F004CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708F8A2226F5309F004CE29E /* VISTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708F8A2626F5309F004CE29E /* VISTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VISTemplateTests.swift; sourceTree = "<group>"; };
+		708F8A2826F5309F004CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708F8A2D26F530A0004CE29E /* VISTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708F8A3126F530A0004CE29E /* VISTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VISTemplateUITests.swift; sourceTree = "<group>"; };
+		708F8A3326F530A0004CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		703CFB8626F52A3000C0ED9B /* Frameworks */ = {
+		708F8A0926F53097004CE29E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703CFB9C26F52A3200C0ED9B /* Frameworks */ = {
+		708F8A1F26F5309F004CE29E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703CFBA626F52A3200C0ED9B /* Frameworks */ = {
+		708F8A2A26F530A0004CE29E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,53 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		703CFB8026F52A3000C0ED9B = {
+		708F8A0326F53097004CE29E = {
 			isa = PBXGroup;
 			children = (
-				703CFB8B26F52A3100C0ED9B /* VISTemplate */,
-				703CFBA226F52A3200C0ED9B /* VISTemplateTests */,
-				703CFBAC26F52A3200C0ED9B /* VISTemplateUITests */,
-				703CFB8A26F52A3100C0ED9B /* Products */,
+				708F8A0E26F53097004CE29E /* VISTemplate */,
+				708F8A2526F5309F004CE29E /* VISTemplateTests */,
+				708F8A3026F530A0004CE29E /* VISTemplateUITests */,
+				708F8A0D26F53097004CE29E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		703CFB8A26F52A3100C0ED9B /* Products */ = {
+		708F8A0D26F53097004CE29E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				703CFB8926F52A3100C0ED9B /* VISTemplate.app */,
-				703CFB9F26F52A3200C0ED9B /* VISTemplateTests.xctest */,
-				703CFBA926F52A3200C0ED9B /* VISTemplateUITests.xctest */,
+				708F8A0C26F53097004CE29E /* VISTemplate.app */,
+				708F8A2226F5309F004CE29E /* VISTemplateTests.xctest */,
+				708F8A2D26F530A0004CE29E /* VISTemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		703CFB8B26F52A3100C0ED9B /* VISTemplate */ = {
+		708F8A0E26F53097004CE29E /* VISTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				703CFB8C26F52A3100C0ED9B /* AppDelegate.swift */,
-				703CFB8E26F52A3100C0ED9B /* SceneDelegate.swift */,
-				703CFB9026F52A3100C0ED9B /* ViewController.swift */,
-				703CFB9226F52A3100C0ED9B /* Main.storyboard */,
-				703CFB9526F52A3200C0ED9B /* Assets.xcassets */,
-				703CFB9726F52A3200C0ED9B /* LaunchScreen.storyboard */,
-				703CFB9A26F52A3200C0ED9B /* Info.plist */,
+				708F8A0F26F53097004CE29E /* AppDelegate.swift */,
+				708F8A1126F53097004CE29E /* SceneDelegate.swift */,
+				708F8A1326F53097004CE29E /* ViewController.swift */,
+				708F8A1526F53097004CE29E /* Main.storyboard */,
+				708F8A1826F5309F004CE29E /* Assets.xcassets */,
+				708F8A1A26F5309F004CE29E /* LaunchScreen.storyboard */,
+				708F8A1D26F5309F004CE29E /* Info.plist */,
 			);
 			path = VISTemplate;
 			sourceTree = "<group>";
 		};
-		703CFBA226F52A3200C0ED9B /* VISTemplateTests */ = {
+		708F8A2526F5309F004CE29E /* VISTemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				703CFBA326F52A3200C0ED9B /* VISTemplateTests.swift */,
+				708F8A2626F5309F004CE29E /* VISTemplateTests.swift */,
+				708F8A2826F5309F004CE29E /* Info.plist */,
 			);
 			path = VISTemplateTests;
 			sourceTree = "<group>";
 		};
-		703CFBAC26F52A3200C0ED9B /* VISTemplateUITests */ = {
+		708F8A3026F530A0004CE29E /* VISTemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				703CFBAD26F52A3200C0ED9B /* VISTemplateUITests.swift */,
-				703CFBAF26F52A3200C0ED9B /* VISTemplateUITestsLaunchTests.swift */,
+				708F8A3126F530A0004CE29E /* VISTemplateUITests.swift */,
+				708F8A3326F530A0004CE29E /* Info.plist */,
 			);
 			path = VISTemplateUITests;
 			sourceTree = "<group>";
@@ -130,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		703CFB8826F52A3000C0ED9B /* VISTemplate */ = {
+		708F8A0B26F53097004CE29E /* VISTemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 703CFBB326F52A3200C0ED9B /* Build configuration list for PBXNativeTarget "VISTemplate" */;
+			buildConfigurationList = 708F8A3626F530A0004CE29E /* Build configuration list for PBXNativeTarget "VISTemplate" */;
 			buildPhases = (
-				703CFB8526F52A3000C0ED9B /* Sources */,
-				703CFB8626F52A3000C0ED9B /* Frameworks */,
-				703CFB8726F52A3000C0ED9B /* Resources */,
+				708F8A0826F53097004CE29E /* Sources */,
+				708F8A0926F53097004CE29E /* Frameworks */,
+				708F8A0A26F53097004CE29E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,107 +145,106 @@
 			);
 			name = VISTemplate;
 			productName = VISTemplate;
-			productReference = 703CFB8926F52A3100C0ED9B /* VISTemplate.app */;
+			productReference = 708F8A0C26F53097004CE29E /* VISTemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		703CFB9E26F52A3200C0ED9B /* VISTemplateTests */ = {
+		708F8A2126F5309F004CE29E /* VISTemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 703CFBB626F52A3200C0ED9B /* Build configuration list for PBXNativeTarget "VISTemplateTests" */;
+			buildConfigurationList = 708F8A3926F530A0004CE29E /* Build configuration list for PBXNativeTarget "VISTemplateTests" */;
 			buildPhases = (
-				703CFB9B26F52A3200C0ED9B /* Sources */,
-				703CFB9C26F52A3200C0ED9B /* Frameworks */,
-				703CFB9D26F52A3200C0ED9B /* Resources */,
+				708F8A1E26F5309F004CE29E /* Sources */,
+				708F8A1F26F5309F004CE29E /* Frameworks */,
+				708F8A2026F5309F004CE29E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				703CFBA126F52A3200C0ED9B /* PBXTargetDependency */,
+				708F8A2426F5309F004CE29E /* PBXTargetDependency */,
 			);
 			name = VISTemplateTests;
 			productName = VISTemplateTests;
-			productReference = 703CFB9F26F52A3200C0ED9B /* VISTemplateTests.xctest */;
+			productReference = 708F8A2226F5309F004CE29E /* VISTemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		703CFBA826F52A3200C0ED9B /* VISTemplateUITests */ = {
+		708F8A2C26F530A0004CE29E /* VISTemplateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 703CFBB926F52A3200C0ED9B /* Build configuration list for PBXNativeTarget "VISTemplateUITests" */;
+			buildConfigurationList = 708F8A3C26F530A0004CE29E /* Build configuration list for PBXNativeTarget "VISTemplateUITests" */;
 			buildPhases = (
-				703CFBA526F52A3200C0ED9B /* Sources */,
-				703CFBA626F52A3200C0ED9B /* Frameworks */,
-				703CFBA726F52A3200C0ED9B /* Resources */,
+				708F8A2926F530A0004CE29E /* Sources */,
+				708F8A2A26F530A0004CE29E /* Frameworks */,
+				708F8A2B26F530A0004CE29E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				703CFBAB26F52A3200C0ED9B /* PBXTargetDependency */,
+				708F8A2F26F530A0004CE29E /* PBXTargetDependency */,
 			);
 			name = VISTemplateUITests;
 			productName = VISTemplateUITests;
-			productReference = 703CFBA926F52A3200C0ED9B /* VISTemplateUITests.xctest */;
+			productReference = 708F8A2D26F530A0004CE29E /* VISTemplateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		703CFB8126F52A3000C0ED9B /* Project object */ = {
+		708F8A0426F53097004CE29E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					703CFB8826F52A3000C0ED9B = {
-						CreatedOnToolsVersion = 13.0;
+					708F8A0B26F53097004CE29E = {
+						CreatedOnToolsVersion = 12.4;
 					};
-					703CFB9E26F52A3200C0ED9B = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 703CFB8826F52A3000C0ED9B;
+					708F8A2126F5309F004CE29E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 708F8A0B26F53097004CE29E;
 					};
-					703CFBA826F52A3200C0ED9B = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 703CFB8826F52A3000C0ED9B;
+					708F8A2C26F530A0004CE29E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 708F8A0B26F53097004CE29E;
 					};
 				};
 			};
-			buildConfigurationList = 703CFB8426F52A3000C0ED9B /* Build configuration list for PBXProject "VISTemplate" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 708F8A0726F53097004CE29E /* Build configuration list for PBXProject "VISTemplate" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 703CFB8026F52A3000C0ED9B;
-			productRefGroup = 703CFB8A26F52A3100C0ED9B /* Products */;
+			mainGroup = 708F8A0326F53097004CE29E;
+			productRefGroup = 708F8A0D26F53097004CE29E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				703CFB8826F52A3000C0ED9B /* VISTemplate */,
-				703CFB9E26F52A3200C0ED9B /* VISTemplateTests */,
-				703CFBA826F52A3200C0ED9B /* VISTemplateUITests */,
+				708F8A0B26F53097004CE29E /* VISTemplate */,
+				708F8A2126F5309F004CE29E /* VISTemplateTests */,
+				708F8A2C26F530A0004CE29E /* VISTemplateUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		703CFB8726F52A3000C0ED9B /* Resources */ = {
+		708F8A0A26F53097004CE29E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703CFB9926F52A3200C0ED9B /* LaunchScreen.storyboard in Resources */,
-				703CFB9626F52A3200C0ED9B /* Assets.xcassets in Resources */,
-				703CFB9426F52A3100C0ED9B /* Main.storyboard in Resources */,
+				708F8A1C26F5309F004CE29E /* LaunchScreen.storyboard in Resources */,
+				708F8A1926F5309F004CE29E /* Assets.xcassets in Resources */,
+				708F8A1726F53097004CE29E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703CFB9D26F52A3200C0ED9B /* Resources */ = {
+		708F8A2026F5309F004CE29E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703CFBA726F52A3200C0ED9B /* Resources */ = {
+		708F8A2B26F530A0004CE29E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		703CFB8526F52A3000C0ED9B /* Sources */ = {
+		708F8A0826F53097004CE29E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703CFB9126F52A3100C0ED9B /* ViewController.swift in Sources */,
-				703CFB8D26F52A3100C0ED9B /* AppDelegate.swift in Sources */,
-				703CFB8F26F52A3100C0ED9B /* SceneDelegate.swift in Sources */,
+				708F8A1426F53097004CE29E /* ViewController.swift in Sources */,
+				708F8A1026F53097004CE29E /* AppDelegate.swift in Sources */,
+				708F8A1226F53097004CE29E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703CFB9B26F52A3200C0ED9B /* Sources */ = {
+		708F8A1E26F5309F004CE29E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703CFBA426F52A3200C0ED9B /* VISTemplateTests.swift in Sources */,
+				708F8A2726F5309F004CE29E /* VISTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703CFBA526F52A3200C0ED9B /* Sources */ = {
+		708F8A2926F530A0004CE29E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703CFBAE26F52A3200C0ED9B /* VISTemplateUITests.swift in Sources */,
-				703CFBB026F52A3200C0ED9B /* VISTemplateUITestsLaunchTests.swift in Sources */,
+				708F8A3226F530A0004CE29E /* VISTemplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		703CFBA126F52A3200C0ED9B /* PBXTargetDependency */ = {
+		708F8A2426F5309F004CE29E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 703CFB8826F52A3000C0ED9B /* VISTemplate */;
-			targetProxy = 703CFBA026F52A3200C0ED9B /* PBXContainerItemProxy */;
+			target = 708F8A0B26F53097004CE29E /* VISTemplate */;
+			targetProxy = 708F8A2326F5309F004CE29E /* PBXContainerItemProxy */;
 		};
-		703CFBAB26F52A3200C0ED9B /* PBXTargetDependency */ = {
+		708F8A2F26F530A0004CE29E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 703CFB8826F52A3000C0ED9B /* VISTemplate */;
-			targetProxy = 703CFBAA26F52A3200C0ED9B /* PBXContainerItemProxy */;
+			target = 708F8A0B26F53097004CE29E /* VISTemplate */;
+			targetProxy = 708F8A2E26F530A0004CE29E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		703CFB9226F52A3100C0ED9B /* Main.storyboard */ = {
+		708F8A1526F53097004CE29E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				703CFB9326F52A3100C0ED9B /* Base */,
+				708F8A1626F53097004CE29E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		703CFB9726F52A3200C0ED9B /* LaunchScreen.storyboard */ = {
+		708F8A1A26F5309F004CE29E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				703CFB9826F52A3200C0ED9B /* Base */,
+				708F8A1B26F5309F004CE29E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,13 +315,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		703CFBB126F52A3200C0ED9B /* Debug */ = {
+		708F8A3426F530A0004CE29E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -367,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -377,13 +376,13 @@
 			};
 			name = Debug;
 		};
-		703CFBB226F52A3200C0ED9B /* Release */ = {
+		708F8A3526F530A0004CE29E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -422,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,146 +431,116 @@
 			};
 			name = Release;
 		};
-		703CFBB426F52A3200C0ED9B /* Debug */ = {
+		708F8A3726F530A0004CE29E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VISTemplate/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alaa.PhotoGallery.VISTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		703CFBB526F52A3200C0ED9B /* Release */ = {
+		708F8A3826F530A0004CE29E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VISTemplate/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alaa.PhotoGallery.VISTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		703CFBB726F52A3200C0ED9B /* Debug */ = {
+		708F8A3A26F530A0004CE29E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_FILE = VISTemplateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alaa.PhotoGallery.VISTemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VISTemplate.app/VISTemplate";
 			};
 			name = Debug;
 		};
-		703CFBB826F52A3200C0ED9B /* Release */ = {
+		708F8A3B26F530A0004CE29E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_FILE = VISTemplateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alaa.PhotoGallery.VISTemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VISTemplate.app/VISTemplate";
 			};
 			name = Release;
 		};
-		703CFBBA26F52A3200C0ED9B /* Debug */ = {
+		708F8A3D26F530A0004CE29E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VISTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alaa.PhotoGallery.VISTemplateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VISTemplate;
 			};
 			name = Debug;
 		};
-		703CFBBB26F52A3200C0ED9B /* Release */ = {
+		708F8A3E26F530A0004CE29E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VISTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alaa.PhotoGallery.VISTemplateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VISTemplate;
@@ -581,43 +550,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		703CFB8426F52A3000C0ED9B /* Build configuration list for PBXProject "VISTemplate" */ = {
+		708F8A0726F53097004CE29E /* Build configuration list for PBXProject "VISTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				703CFBB126F52A3200C0ED9B /* Debug */,
-				703CFBB226F52A3200C0ED9B /* Release */,
+				708F8A3426F530A0004CE29E /* Debug */,
+				708F8A3526F530A0004CE29E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		703CFBB326F52A3200C0ED9B /* Build configuration list for PBXNativeTarget "VISTemplate" */ = {
+		708F8A3626F530A0004CE29E /* Build configuration list for PBXNativeTarget "VISTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				703CFBB426F52A3200C0ED9B /* Debug */,
-				703CFBB526F52A3200C0ED9B /* Release */,
+				708F8A3726F530A0004CE29E /* Debug */,
+				708F8A3826F530A0004CE29E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		703CFBB626F52A3200C0ED9B /* Build configuration list for PBXNativeTarget "VISTemplateTests" */ = {
+		708F8A3926F530A0004CE29E /* Build configuration list for PBXNativeTarget "VISTemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				703CFBB726F52A3200C0ED9B /* Debug */,
-				703CFBB826F52A3200C0ED9B /* Release */,
+				708F8A3A26F530A0004CE29E /* Debug */,
+				708F8A3B26F530A0004CE29E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		703CFBB926F52A3200C0ED9B /* Build configuration list for PBXNativeTarget "VISTemplateUITests" */ = {
+		708F8A3C26F530A0004CE29E /* Build configuration list for PBXNativeTarget "VISTemplateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				703CFBBA26F52A3200C0ED9B /* Debug */,
-				703CFBBB26F52A3200C0ED9B /* Release */,
+				708F8A3D26F530A0004CE29E /* Debug */,
+				708F8A3E26F530A0004CE29E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 703CFB8126F52A3000C0ED9B /* Project object */;
+	rootObject = 708F8A0426F53097004CE29E /* Project object */;
 }
