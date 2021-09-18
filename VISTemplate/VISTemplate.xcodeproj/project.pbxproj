@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706CBD3E26F603AC002A746C /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CBD3C26F603AC002A746C /* PhotoCollectionViewCell.swift */; };
+		706CBD3F26F603AC002A746C /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706CBD3D26F603AC002A746C /* PhotoCollectionViewCell.xib */; };
 		708F8A1026F53097004CE29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A0F26F53097004CE29E /* AppDelegate.swift */; };
 		708F8A1226F53097004CE29E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A1126F53097004CE29E /* SceneDelegate.swift */; };
 		708F8A1426F53097004CE29E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A1326F53097004CE29E /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		708F8A1C26F5309F004CE29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708F8A1A26F5309F004CE29E /* LaunchScreen.storyboard */; };
 		708F8A2726F5309F004CE29E /* VISTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A2626F5309F004CE29E /* VISTemplateTests.swift */; };
 		708F8A3226F530A0004CE29E /* VISTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A3126F530A0004CE29E /* VISTemplateUITests.swift */; };
+		708F8ABD26F54775004CE29E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8ABC26F54775004CE29E /* Photo.swift */; };
+		86FD8DF3FAAA372B13B38486 /* Pods_VISTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5026BE09836BB10CFA484E70 /* Pods_VISTemplate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5026BE09836BB10CFA484E70 /* Pods_VISTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VISTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6697D2A5AE15F40A7BB6683E /* Pods-VISTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VISTemplate.release.xcconfig"; path = "Target Support Files/Pods-VISTemplate/Pods-VISTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		706CBD3C26F603AC002A746C /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		706CBD3D26F603AC002A746C /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		708F8A0C26F53097004CE29E /* VISTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VISTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		708F8A0F26F53097004CE29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		708F8A1126F53097004CE29E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		708F8A2D26F530A0004CE29E /* VISTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		708F8A3126F530A0004CE29E /* VISTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VISTemplateUITests.swift; sourceTree = "<group>"; };
 		708F8A3326F530A0004CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708F8ABC26F54775004CE29E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		A45C56626D3C99958477A585 /* Pods-VISTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VISTemplate.debug.xcconfig"; path = "Target Support Files/Pods-VISTemplate/Pods-VISTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FD8DF3FAAA372B13B38486 /* Pods_VISTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		608B0A37DEA5097B4E33B840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5026BE09836BB10CFA484E70 /* Pods_VISTemplate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		708F8A0326F53097004CE29E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +102,8 @@
 				708F8A2526F5309F004CE29E /* VISTemplateTests */,
 				708F8A3026F530A0004CE29E /* VISTemplateUITests */,
 				708F8A0D26F53097004CE29E /* Products */,
+				BD51E515EAE64FB2BCF55410 /* Pods */,
+				608B0A37DEA5097B4E33B840 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,7 @@
 		708F8A0E26F53097004CE29E /* VISTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				708F8AED26F55736004CE29E /* cell */,
 				708F8A0F26F53097004CE29E /* AppDelegate.swift */,
 				708F8A1126F53097004CE29E /* SceneDelegate.swift */,
 				708F8A1326F53097004CE29E /* ViewController.swift */,
@@ -106,6 +128,7 @@
 				708F8A1826F5309F004CE29E /* Assets.xcassets */,
 				708F8A1A26F5309F004CE29E /* LaunchScreen.storyboard */,
 				708F8A1D26F5309F004CE29E /* Info.plist */,
+				708F8ABC26F54775004CE29E /* Photo.swift */,
 			);
 			path = VISTemplate;
 			sourceTree = "<group>";
@@ -128,6 +151,24 @@
 			path = VISTemplateUITests;
 			sourceTree = "<group>";
 		};
+		708F8AED26F55736004CE29E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				706CBD3C26F603AC002A746C /* PhotoCollectionViewCell.swift */,
+				706CBD3D26F603AC002A746C /* PhotoCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		BD51E515EAE64FB2BCF55410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A45C56626D3C99958477A585 /* Pods-VISTemplate.debug.xcconfig */,
+				6697D2A5AE15F40A7BB6683E /* Pods-VISTemplate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 708F8A3626F530A0004CE29E /* Build configuration list for PBXNativeTarget "VISTemplate" */;
 			buildPhases = (
+				2694BC67A85D06374F9A29BC /* [CP] Check Pods Manifest.lock */,
 				708F8A0826F53097004CE29E /* Sources */,
 				708F8A0926F53097004CE29E /* Frameworks */,
 				708F8A0A26F53097004CE29E /* Resources */,
+				C3E12196523BA29C7388E4AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				708F8A1C26F5309F004CE29E /* LaunchScreen.storyboard in Resources */,
+				706CBD3F26F603AC002A746C /* PhotoCollectionViewCell.xib in Resources */,
 				708F8A1926F5309F004CE29E /* Assets.xcassets in Resources */,
 				708F8A1726F53097004CE29E /* Main.storyboard in Resources */,
 			);
@@ -253,13 +297,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2694BC67A85D06374F9A29BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VISTemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E12196523BA29C7388E4AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VISTemplate/Pods-VISTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VISTemplate/Pods-VISTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VISTemplate/Pods-VISTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		708F8A0826F53097004CE29E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708F8ABD26F54775004CE29E /* Photo.swift in Sources */,
 				708F8A1426F53097004CE29E /* ViewController.swift in Sources */,
 				708F8A1026F53097004CE29E /* AppDelegate.swift in Sources */,
+				706CBD3E26F603AC002A746C /* PhotoCollectionViewCell.swift in Sources */,
 				708F8A1226F53097004CE29E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +521,7 @@
 		};
 		708F8A3726F530A0004CE29E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45C56626D3C99958477A585 /* Pods-VISTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +540,7 @@
 		};
 		708F8A3826F530A0004CE29E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6697D2A5AE15F40A7BB6683E /* Pods-VISTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
