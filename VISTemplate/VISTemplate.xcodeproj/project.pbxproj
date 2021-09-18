@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		705B66E526F670C6003DEACB /* SponserAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B66E426F670C6003DEACB /* SponserAds.swift */; };
+		705B66EC26F67203003DEACB /* AdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B66EA26F67203003DEACB /* AdsCollectionViewCell.swift */; };
+		705B66ED26F67203003DEACB /* AdsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 705B66EB26F67203003DEACB /* AdsCollectionViewCell.xib */; };
 		706CBD3E26F603AC002A746C /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706CBD3C26F603AC002A746C /* PhotoCollectionViewCell.swift */; };
 		706CBD3F26F603AC002A746C /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706CBD3D26F603AC002A746C /* PhotoCollectionViewCell.xib */; };
 		708F8A1026F53097004CE29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F8A0F26F53097004CE29E /* AppDelegate.swift */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		5026BE09836BB10CFA484E70 /* Pods_VISTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VISTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6697D2A5AE15F40A7BB6683E /* Pods-VISTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VISTemplate.release.xcconfig"; path = "Target Support Files/Pods-VISTemplate/Pods-VISTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		705B66E426F670C6003DEACB /* SponserAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponserAds.swift; sourceTree = "<group>"; };
+		705B66EA26F67203003DEACB /* AdsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		705B66EB26F67203003DEACB /* AdsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsCollectionViewCell.xib; sourceTree = "<group>"; };
 		706CBD3C26F603AC002A746C /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		706CBD3D26F603AC002A746C /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		708F8A0C26F53097004CE29E /* VISTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VISTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +135,7 @@
 				708F8A1A26F5309F004CE29E /* LaunchScreen.storyboard */,
 				708F8A1D26F5309F004CE29E /* Info.plist */,
 				708F8ABC26F54775004CE29E /* Photo.swift */,
+				705B66E426F670C6003DEACB /* SponserAds.swift */,
 			);
 			path = VISTemplate;
 			sourceTree = "<group>";
@@ -156,6 +163,8 @@
 			children = (
 				706CBD3C26F603AC002A746C /* PhotoCollectionViewCell.swift */,
 				706CBD3D26F603AC002A746C /* PhotoCollectionViewCell.xib */,
+				705B66EA26F67203003DEACB /* AdsCollectionViewCell.swift */,
+				705B66EB26F67203003DEACB /* AdsCollectionViewCell.xib */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -275,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				708F8A1C26F5309F004CE29E /* LaunchScreen.storyboard in Resources */,
+				705B66ED26F67203003DEACB /* AdsCollectionViewCell.xib in Resources */,
 				706CBD3F26F603AC002A746C /* PhotoCollectionViewCell.xib in Resources */,
 				708F8A1926F5309F004CE29E /* Assets.xcassets in Resources */,
 				708F8A1726F53097004CE29E /* Main.storyboard in Resources */,
@@ -345,10 +355,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				708F8ABD26F54775004CE29E /* Photo.swift in Sources */,
+				705B66EC26F67203003DEACB /* AdsCollectionViewCell.swift in Sources */,
 				708F8A1426F53097004CE29E /* ViewController.swift in Sources */,
 				708F8A1026F53097004CE29E /* AppDelegate.swift in Sources */,
 				706CBD3E26F603AC002A746C /* PhotoCollectionViewCell.swift in Sources */,
 				708F8A1226F53097004CE29E /* SceneDelegate.swift in Sources */,
+				705B66E526F670C6003DEACB /* SponserAds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,12 +20,12 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hL0-v4-stG">
                         <rect key="frame" x="10" y="10" width="317" height="192"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ks2-2K-Ugo">
-                                <rect key="frame" x="0.0" y="0.0" width="317" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ks2-2K-Ugo">
+                                <rect key="frame" x="20" y="0.0" width="277" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="hNG-hv-W7Y"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -36,12 +36,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Ks2-2K-Ugo" firstAttribute="top" secondItem="hL0-v4-stG" secondAttribute="top" id="0Eh-Sf-vpE"/>
-                            <constraint firstAttribute="trailing" secondItem="Ks2-2K-Ugo" secondAttribute="trailing" id="HU5-fX-kvO"/>
+                            <constraint firstAttribute="trailing" secondItem="Ks2-2K-Ugo" secondAttribute="trailing" constant="20" id="HU5-fX-kvO"/>
                             <constraint firstItem="IK1-p0-cO1" firstAttribute="top" secondItem="Ks2-2K-Ugo" secondAttribute="bottom" id="P0X-2y-e6T"/>
                             <constraint firstAttribute="trailing" secondItem="IK1-p0-cO1" secondAttribute="trailing" id="R1V-Bb-NC7"/>
                             <constraint firstItem="IK1-p0-cO1" firstAttribute="leading" secondItem="hL0-v4-stG" secondAttribute="leading" id="biU-B8-an6"/>
                             <constraint firstAttribute="bottom" secondItem="IK1-p0-cO1" secondAttribute="bottom" id="dCC-ss-g8o"/>
-                            <constraint firstItem="Ks2-2K-Ugo" firstAttribute="leading" secondItem="hL0-v4-stG" secondAttribute="leading" id="zb1-V7-l6U"/>
+                            <constraint firstItem="Ks2-2K-Ugo" firstAttribute="leading" secondItem="hL0-v4-stG" secondAttribute="leading" constant="20" id="zb1-V7-l6U"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -55,6 +55,7 @@
             </constraints>
             <size key="customSize" width="337" height="212"/>
             <connections>
+                <outlet property="bgView" destination="hL0-v4-stG" id="eTT-8f-5x0"/>
                 <outlet property="imgLbl" destination="Ks2-2K-Ugo" id="8dP-so-Crp"/>
                 <outlet property="imgView" destination="IK1-p0-cO1" id="Azs-p8-XSH"/>
             </connections>

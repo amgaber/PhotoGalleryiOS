@@ -10,16 +10,12 @@ import Kingfisher
 
 class PhotoCollectionViewCell: UICollectionViewCell {
 
-    
+        @IBOutlet weak var bgView: UIView!
        @IBOutlet weak var imgLbl: UILabel?
        @IBOutlet weak var imgView: UIImageView!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-    
     func configData(data: Photo){
+        bgView.layer.cornerRadius = 10
         imgLbl?.text = data.author
         imgLbl?.textColor = .blue
         
